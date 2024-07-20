@@ -1,16 +1,16 @@
 # 백준 2525 번. 오븐 시계
 
 # 평범한 풀이
-# hour, min = map(int, input().split())
-# time = int(input())
+hour, min = map(int, input().split())
+time = int(input())
 
-# cal_hour = (min + time) // 60
-# cal_min = (min + time) % 60
+cal_hour = (min + time) // 60
+cal_min = (min + time) % 60
 
-# if hour + cal_hour > 23 :
-#     print(hour + cal_hour - 24, cal_min)
-# else :
-#     print(hour + cal_hour, cal_min)
+if hour + cal_hour > 23 :
+    print(hour + cal_hour - 24, cal_min)
+else :
+    print(hour + cal_hour, cal_min)
 
 
 

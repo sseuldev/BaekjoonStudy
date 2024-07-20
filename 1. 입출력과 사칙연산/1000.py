@@ -6,4 +6,4 @@ print(int(A) + int(B))
 
 # 더 나은 풀이
 A, B = map(int, input().split())
-print(A+B)
+print(A + B)
